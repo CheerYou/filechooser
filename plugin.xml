@@ -73,32 +73,33 @@
         <source-file src="src/android/filechooser/LocalStorageProvider.java" target-dir="src/com/crypho/localstorage" />
 
         <!-- res files -->
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_chooser.png" target-dir="res/drawable" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_file.png" target-dir="res/drawable" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_folder.png" target-dir="res/drawable" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_provider.png" target-dir="res/drawable" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_chooser.png" target-dir="res/drawable-hdpi" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_file.png" target-dir="res/drawable-hdpi" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_folder.png" target-dir="res/drawable-hdpi" />
-        <source-file src="src/android/filechooser/res/drawable-hdpi/ic_provider.png" target-dir="res/drawable-hdpi" />
-        <source-file src="src/android/filechooser/res/drawable-mdpi/ic_chooser.png" target-dir="res/drawable-mdpi" />
-        <source-file src="src/android/filechooser/res/drawable-mdpi/ic_file.png" target-dir="res/drawable-mdpi" />
-        <source-file src="src/android/filechooser/res/drawable-mdpi/ic_folder.png" target-dir="res/drawable-mdpi" />
-        <source-file src="src/android/filechooser/res/drawable-mdpi/ic_provider.png" target-dir="res/drawable-mdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xhdpi/ic_chooser.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xhdpi/ic_file.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xhdpi/ic_folder.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xhdpi/ic_provider.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xxhdpi/ic_chooser.png" target-dir="res/drawable-xxhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xxhdpi/ic_file.png" target-dir="res/drawable-xxhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xxhdpi/ic_folder.png" target-dir="res/drawable-xxhdpi" />
-        <source-file src="src/android/filechooser/res/drawable-xxhdpi/ic_provider.png" target-dir="res/drawable-xxhdpi" />
-        <source-file src="src/android/filechooser/res/xml/mimetypes.xml" target-dir="res/xml" />
-        <source-file src="src/android/filechooser/res/layout/file.xml" target-dir="res/layout" />
-        <source-file src="src/android/filechooser/res/values/bool.xml" target-dir="res/values" />
-        <source-file src="src/android/filechooser/res/values/dimens_filechooser.xml" target-dir="res/values" />
-        <source-file src="src/android/filechooser/res/values/styles_filechooser.xml" target-dir="res/values" />
-        <source-file src="src/android/filechooser/res/values-v19/bool.xml" target-dir="res/values-v19" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_chooser.png" target="res/drawable/ic_chooser.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_file.png" target="res/drawable/ic_file.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_folder.png" target="res/drawable/ic_folder.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_provider.png" target="res/drawable/ic_provider.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_chooser.png" target="res/drawable-hdpi/ic_chooser.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_file.png" target="res/drawable-hdpi/ic_file.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_folder.png" target="res/drawable-hdpi/ic_folder.png" />
+        <resource-file src="src/android/filechooser/res/drawable-hdpi/ic_provider.png" target="res/drawable-hdpi/ic_provider.png" />
+        <resource-file src="src/android/filechooser/res/drawable-mdpi/ic_chooser.png" target="res/drawable-mdpi/ic_chooser.png" />
+        <resource-file src="src/android/filechooser/res/drawable-mdpi/ic_file.png" target="res/drawable-mdpi/ic_file.png" />
+        <resource-file src="src/android/filechooser/res/drawable-mdpi/ic_folder.png" target="res/drawable-mdpi/ic_folder.png" />
+        <resource-file src="src/android/filechooser/res/drawable-mdpi/ic_provider.png" target="res/drawable-mdpi/ic_provider.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xhdpi/ic_chooser.png" target="res/drawable-xhdpi/ic_chooser.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xhdpi/ic_file.png" target="res/drawable-xhdpi/ic_file.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xhdpi/ic_folder.png" target="res/drawable-xhdpi/ic_folder.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xhdpi/ic_provider.png" target="res/drawable-xhdpi/ic_provider.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xxhdpi/ic_chooser.png" target="res/drawable-xxhdpi/ic_chooser.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xxhdpi/ic_file.png" target="res/drawable-xxhdpi/ic_file.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xxhdpi/ic_folder.png" target="res/drawable-xxhdpi/ic_folder.png" />
+        <resource-file src="src/android/filechooser/res/drawable-xxhdpi/ic_provider.png" target="res/drawable-xxhdpi/ic_provider.png" />
+
+        <resource-file src="src/android/filechooser/res/xml/mimetypes.xml" target="res/xml/mimetypes.xml" />
+        <resource-file src="src/android/filechooser/res/layout/file.xml" target="res/layout/file.xml" />
+        <resource-file src="src/android/filechooser/res/values/bool.xml" target="res/values/bool.xml" />
+        <resource-file src="src/android/filechooser/res/values/dimens_filechooser.xml" target="res/values/dimens_filechooser.xml" />
+        <resource-file src="src/android/filechooser/res/values/styles_filechooser.xml" target="res/values/styles_filechooser.xml" />
+        <resource-file src="src/android/filechooser/res/values-v19/bool.xml" target="res/values-v19/bool.xml" />
 
     </platform>
 </plugin>
