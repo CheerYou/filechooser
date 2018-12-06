@@ -14,7 +14,7 @@ The core pieces of the code were taken from https://github.com/iPaulPro/aFileCho
 
 ### Installation
 ```
-cordova plugin add https://github.com/caixiangsap/filechooser.git
+cordova plugin add https://github.com/CheerYou/filechooser.git
 ```
 
 ### Usage
